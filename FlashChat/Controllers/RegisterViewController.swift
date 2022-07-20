@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseAuth
+import FirebaseCore
 
 class RegisterViewController: UIViewController {
 
@@ -19,7 +20,12 @@ class RegisterViewController: UIViewController {
             
             
             Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
-                // ...
+                if let e = error {
+                    print(e)
+                } else {
+                    // Navigate to ChatViewController
+                    self.performSegue(withIdentifier: "LoginToChat", sender: self)
+                }
             }
         }
     }
