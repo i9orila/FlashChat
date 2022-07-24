@@ -19,6 +19,9 @@
 		ED3C5666285DEFD200F02415 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C5665285DEFD200F02415 /* RegisterViewController.swift */; };
 		ED3C5668285DEFED00F02415 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C5667285DEFED00F02415 /* LoginViewController.swift */; };
 		ED3C566A285DF00500F02415 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C5669285DF00500F02415 /* ChatViewController.swift */; };
+		EDA5781F28894B5F0032F44B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5781E28894B5F0032F44B /* Message.swift */; };
+		EDA57822288D5A370032F44B /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA57820288D5A370032F44B /* MessageCell.swift */; };
+		EDA57823288D5A370032F44B /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA57821288D5A370032F44B /* MessageCell.xib */; };
 		EDAA0555286360220007A0E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDAA0554286360220007A0E3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +42,9 @@
 		ED3C5665285DEFD200F02415 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		ED3C5667285DEFED00F02415 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ED3C5669285DF00500F02415 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		EDA5781E28894B5F0032F44B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		EDA57820288D5A370032F44B /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		EDA57821288D5A370032F44B /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		EDAA0554286360220007A0E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +116,7 @@
 		ED3C5662285DEC3A00F02415 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EDA5781E28894B5F0032F44B /* Message.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -118,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				ED3C5651285DEBED00F02415 /* Main.storyboard */,
+				EDA57820288D5A370032F44B /* MessageCell.swift */,
+				EDA57821288D5A370032F44B /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA57823288D5A370032F44B /* MessageCell.xib in Resources */,
 				ED3C565B285DEBEE00F02415 /* LaunchScreen.storyboard in Resources */,
 				EDAA0555286360220007A0E3 /* GoogleService-Info.plist in Resources */,
 				ED3C5658285DEBEE00F02415 /* Assets.xcassets in Resources */,
@@ -250,8 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED3C5668285DEFED00F02415 /* LoginViewController.swift in Sources */,
+				EDA57822288D5A370032F44B /* MessageCell.swift in Sources */,
 				ED3C5656285DEBED00F02415 /* FlashChat.xcdatamodeld in Sources */,
 				ED3C5666285DEFD200F02415 /* RegisterViewController.swift in Sources */,
+				EDA5781F28894B5F0032F44B /* Message.swift in Sources */,
 				ED3C566A285DF00500F02415 /* ChatViewController.swift in Sources */,
 				ED3C5650285DEBED00F02415 /* WelcomeViewController.swift in Sources */,
 				ED3C564C285DEBED00F02415 /* AppDelegate.swift in Sources */,
