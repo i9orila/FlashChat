@@ -10,5 +10,6 @@ target 'FlashChat' do
   pod 'CLTypingLabel' , '~>0.4.0'
   pod 'FirebaseAuth'
   pod 'FirebaseFirestore'
+  pod 'IQKeyboardManagerSwift', '>= 6.5.0'
 
 end

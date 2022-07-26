@@ -23,6 +23,7 @@
 		EDA57822288D5A370032F44B /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA57820288D5A370032F44B /* MessageCell.swift */; };
 		EDA57823288D5A370032F44B /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA57821288D5A370032F44B /* MessageCell.xib */; };
 		EDAA0555286360220007A0E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDAA0554286360220007A0E3 /* GoogleService-Info.plist */; };
+		EDD5018228905D4B00AC0495 /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = EDD5018128905D4B00AC0495 /* ReadMe.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		EDA57820288D5A370032F44B /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		EDA57821288D5A370032F44B /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		EDAA0554286360220007A0E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EDD5018128905D4B00AC0495 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		ED3C563F285DEBED00F02415 = {
 			isa = PBXGroup;
 			children = (
+				EDD5018128905D4B00AC0495 /* ReadMe.md */,
 				ED3C564A285DEBED00F02415 /* FlashChat */,
 				ED3C5649285DEBED00F02415 /* Products */,
 				27848313C3DC5389516BFA50 /* Pods */,
@@ -204,6 +207,7 @@
 			files = (
 				EDA57823288D5A370032F44B /* MessageCell.xib in Resources */,
 				ED3C565B285DEBEE00F02415 /* LaunchScreen.storyboard in Resources */,
+				EDD5018228905D4B00AC0495 /* ReadMe.md in Resources */,
 				EDAA0555286360220007A0E3 /* GoogleService-Info.plist in Resources */,
 				ED3C5658285DEBEE00F02415 /* Assets.xcassets in Resources */,
 				ED3C5653285DEBED00F02415 /* Main.storyboard in Resources */,
